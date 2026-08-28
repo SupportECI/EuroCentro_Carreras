@@ -79,7 +79,7 @@ const LandingPage = () => {
 
   const handleWhatsAppSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const numeroWhatsApp = "5593179872";
+    const numeroWhatsApp = "5571080066";
     const texto = `Hola, mi nombre es *${formData.nombre}*.%0A%0A📧 Mi correo es: ${formData.correo}%0A💬 Mi duda/interés es: ${formData.mensaje}`;
 
     const url = `https://wa.me/${numeroWhatsApp}?text=${texto}`;
@@ -177,7 +177,7 @@ const LandingPage = () => {
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 </div>
                 <div>
-                  <p className="font-bold text-slate-900">+55 93179872</p>
+                  <p className="font-bold text-slate-900">+55 71080066</p>
                   <p className="text-slate-500 text-xs">WhatsApp o llamadas</p>
                 </div>
               </div>
@@ -249,7 +249,7 @@ const LandingPage = () => {
       </div>
 
       <a
-        href="https://wa.me/5593179872?text=Hola,%20quisiera%20recibir%20más%20información%20sobre%20los%20cursos."
+        href="https://wa.me/5571080066?text=Hola,%20quisiera%20recibir%20más%20información%20sobre%20los%20cursos."
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:shadow-[0_10px_30px_rgba(37,211,102,0.4)] hover:scale-110 transition-all duration-300 flex items-center justify-center group"
