@@ -4,7 +4,7 @@ import type { ChangeEvent, FormEvent, MouseEvent } from 'react';
 
 import mcr from "../assets/mcer.v0-300x300.png";
 import toeic from "../assets/toeic.png";
-import sepLogo from "../assets/SEP.webp";
+import sepLogo from "../assets/sep.webp";
 import cenniLogo from "../assets/cenni.png";
 
 // Import Individual Testimonial Screenshots
